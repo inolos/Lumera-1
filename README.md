@@ -1,7 +1,20 @@
-# Lumera-1
-Predict your emotions before they arrive with Lumera ai.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Lumera is an intelligent mood journaling and prediction app designed to help you understand and anticipate your emotional patterns. It works by learning from your self-reported moods and the context surrounding them—analyzing your location, the time of day, the day of the week, and local weather conditions.
-Powered by the Gemini API, Lumera identifies personal trends in your emotional history to generate predictions about how you might feel in a given situation. 
+# Run and deploy your AI Studio app
 
-The app features proactive alerts that can notify you when you enter a location historically linked to strong emotions, providing actionable coping mechanisms and suggesting relevant nearby places using Google Maps. With Lumera, you can explore visual insights into your mood history, receive personalized feedback, and gain a deeper awareness of your emotional well-being.
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/drive/1YoJ1rYklEksTRd08NShJQ7QLdyu41RSC
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

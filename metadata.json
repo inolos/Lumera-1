@@ -1,0 +1,7 @@
+{
+  "name": "Lumera",
+  "description": "Lumera is an app that predicts the probability of experiencing a strong emotion based on your current context by analyzing your personal history of self-reported moods, time, and location.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
